@@ -1,0 +1,25 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px 600px;
+}
+
+header {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+header > img {
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    grid-area: 2 / 1 / auto / 2;
+    background-color: orange;
+    
+}
+
+.film {
+    grid-area: 2 / 2 / auto / 3;
+    background-color: red;
+}
