@@ -51,6 +51,10 @@ header {
     
 }
 
+.menu > embed {
+    width: 100%;
+}
+
 .film {
     grid-area: 4 / 3 / 5 / 5;
     height: 100%;
