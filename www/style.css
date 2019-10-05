@@ -217,13 +217,9 @@ body {
 
 @media only screen and (max-width: 673px) {
 
-body {
-    background-color: aqua;
-}
-
 .wrapper {
     display: grid;
-    grid-template-rows: 10px 130px 10px auto auto auto auto 200px 200px ;
+    grid-template-rows: 10px 130px 10px auto auto auto auto 400px 400px 400px 400px ;
     grid-template-columns: 50px auto auto 50px;
     grid-gap: 10px;
     width: 100%;
