@@ -1,5 +1,6 @@
 body {
-    background-color: whitesmoke;
+    background-image: linear-gradient(rgb(206, 232, 236), whitesmoke);
+    
     font-family: 'Courier New', Courier, monospace;
 }
 
