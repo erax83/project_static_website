@@ -85,26 +85,26 @@ h1 {
        
     }
     
-    .menu {
+    #menu {
         grid-area: 4 / 1 / 5 / 3;
         height: 100%;
         padding: 40px;
     }
     
-    .menu > embed {
+    #menu > embed {
         width: 90%;
         height: 300px;
         
         
     }
     
-    .rightnow {
+    #rightnow {
         grid-area: 4 / 3 / 5 / 5;
         height: 100%;
         padding: 40px;
     }
     
-    .rightnow > embed {
+    #rightnow > embed {
         
     }
  
@@ -129,7 +129,7 @@ h1 {
         display: none;
     }
     
-    .menu > a {
+    #menu > a {
         display: none;
     }
 
@@ -193,24 +193,24 @@ h1 {
        
     }
     
-    .menu {
+    #menu {
         grid-area: 4 / 1 / 5 / 3;
         height: 100%;
     }
     
-    .menu > embed {
+    #menu > embed {
         width: 90%;
         height: 300px;
         
         
     }
     
-    .rightnow {
+    #rightnow {
         grid-area: 4 / 3 / 5 / 5;
         height: 100%;
     }
     
-    .rightnow > embed {
+    #rightnow > embed {
         
     }
   
@@ -227,6 +227,7 @@ h1 {
         display: none;
     }
     
+    
     .mobile-menu {
         display: none;
     }
@@ -235,7 +236,7 @@ h1 {
         display: none;
     }
     
-    .menu > a {
+    #menu > a {
         display: none;
     }
 
@@ -285,33 +286,33 @@ header {
     display: none;
 }
 
-.mobile-open {
+#mobile-open {
     grid-area: 8 / 1 / 9 / 5;
     height: 100%;
 }
 
-.mobile-contact {
+#mobile-contact {
     grid-area: 9 / 1 / 10 / 5;
     height: 100%;
     
 }
 
-.menu {
+#menu {
     grid-area: 10 / 1 / 11 / 5;
     height: 100%;
 }
 
-.menu > embed {
+#menu > embed {
     width: 90%;
     height: 250px;
 }
 
-.rightnow {
+#rightnow {
     grid-area: 11 / 1 / 12 / 5;
     height: 100%;
 }
 
-.rightnow > embed {
+#rightnow > embed {
     width: 90%;
     height: 200px;
 }
