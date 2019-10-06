@@ -63,19 +63,19 @@ h1 {
     }
     
   
-    .logo {
+    #logo {
         grid-area: 1 / 1 / 3 / 4;
         z-index: 3;
     }
     
-    .open {
+    #open {
         grid-area: 3 / 1 / 4 / 4;
         z-index: 3;
         
         
     }
     
-    .contact {
+    #contact {
         grid-area: 4 / 1 / 5 / 4;
         z-index: 3;
        
@@ -168,19 +168,19 @@ h1 {
     }
     
    
-    .logo {
+    #logo {
         grid-area: 1 / 1 / 3 / 4;
         z-index: 3;
     }
     
-    .open {
+    #open {
         grid-area: 3 / 1 / 4 / 4;
         z-index: 3;
         
         
     }
     
-    .contact {
+    #contact {
         grid-area: 4 / 1 / 5 / 4;
         z-index: 3;
        
@@ -265,16 +265,16 @@ header {
     line-height: 200%;
 }
 
-.logo {
+#logo {
     grid-area: 2 / 2 / 3 / 4;
     z-index: 3;
 }
 
-.open {
+#open {
     display: none;
 }
 
-.contact {
+#contact {
     display: none;
 }
 
