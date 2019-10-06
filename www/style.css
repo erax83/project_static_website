@@ -113,11 +113,11 @@ h1 {
         font-size: 40px;
     }
 
-    .mobile-open {
+    #mobile-open {
         display: none;
     }
 
-    .mobile-contact {
+    #mobile-contact {
         display: none;
     }
 
@@ -125,7 +125,7 @@ h1 {
         display: none;
     }
 
-    .rightnow > a {
+    #rightnow > a {
         display: none;
     }
     
@@ -219,20 +219,19 @@ h1 {
         font-size: 40px;
     }
 
-    .mobile-open {
+    #mobile-open {
         display: none;
     }
 
-    .mobile-contact {
+    #mobile-contact {
         display: none;
     }
-    
     
     .mobile-menu {
         display: none;
     }
 
-    .rightnow > a {
+    #rightnow > a {
         display: none;
     }
     
