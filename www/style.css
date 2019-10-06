@@ -1,20 +1,33 @@
 body {
     background-image: linear-gradient(rgb(206, 232, 236), whitesmoke);
-    
     font-family: 'Courier New', Courier, monospace;
 }
 
 * {
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
-.rightnow > a {
-    display: none;
+@font-face {
+    font-family: 'lobster';
+    src: url(fonts/Lobster_1.3.otf);
+    font-style: normal;
+    font-weight: 100;
 }
 
-.menu > a {
-    display: none;
+h1 {
+    font-family: lobster;
+    font-weight: 100;
 }
+
+.square {
+    opacity: 0.85;
+}
+
+.square > ul {
+    list-style: none;
+
+}
+
 
 @media only screen and (min-width: 1101px) {
     .wrapper {
@@ -49,15 +62,7 @@ body {
         
     }
     
-    .square {
-        opacity: 0.85;
-    }
-    
-    .square > ul {
-        list-style: none;
-    
-    }
-    
+  
     .logo {
         grid-area: 1 / 1 / 3 / 4;
         z-index: 3;
@@ -102,23 +107,14 @@ body {
     .rightnow > embed {
         
     }
-    
-    
-    @font-face {
-        font-family: 'lobster';
-        src: url(fonts/Lobster_1.3.otf);
-        font-style: normal;
-        font-weight: 100;
-    }
+ 
     
     h1 {
-        font-family: lobster;
-        font-weight: 100;
         font-size: 40px;
     }
 
     .mobile-open {
-        visibility: hidden;
+        display: none;
     }
 
     .mobile-contact {
@@ -129,10 +125,18 @@ body {
         display: none;
     }
 
+    .rightnow > a {
+        display: none;
+    }
+    
+    .menu > a {
+        display: none;
+    }
+
 }
 
 
-@media only screen and (min-width: 401px) and (max-width: 1100px) {
+@media only screen and (min-width: 674px) and (max-width: 1100px) {
 
     .wrapper {
         display: grid;
@@ -166,16 +170,7 @@ body {
         
     }
     
-    .square {
-        border-radius: 5px;
-        opacity: 0.85;
-    }
-    
-    .square > ul {
-        list-style: none;
-    
-    }
-    
+   
     .logo {
         grid-area: 1 / 1 / 3 / 4;
         z-index: 3;
@@ -218,23 +213,14 @@ body {
     .rightnow > embed {
         
     }
-    
-    
-    @font-face {
-        font-family: 'lobster';
-        src: url(fonts/Lobster_1.3.otf);
-        font-style: normal;
-        font-weight: 100;
-    }
+  
     
     h1 {
-        font-family: lobster;
-        font-weight: 100;
         font-size: 40px;
     }
 
     .mobile-open {
-        visibility: hidden;
+        display: none;
     }
 
     .mobile-contact {
@@ -245,6 +231,14 @@ body {
         display: none;
     }
 
+    .rightnow > a {
+        display: none;
+    }
+    
+    .menu > a {
+        display: none;
+    }
+
 
 }
 
@@ -252,7 +246,7 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-rows: 8px 130px 5px auto auto auto auto 400px 400px 400px 400px ;
+    grid-template-rows: 8px 130px 5px auto auto auto auto auto auto auto auto ;
     grid-template-columns: 50px auto auto 50px;
     grid-gap: 10px;
     width: 100%;
@@ -278,16 +272,6 @@ header {
     line-height: 200%;
 }
 
-.square {
-    border-radius: 5px;
-    opacity: 0.85;
-}
-
-.square > ul {
-    list-style: none;
-
-}
-
 .logo {
     grid-area: 2 / 2 / 3 / 4;
     z-index: 3;
@@ -302,53 +286,42 @@ header {
 }
 
 .mobile-open {
-    grid-area: 10 / 1 / 11 / 5;
-    visibility: visible;
+    grid-area: 8 / 1 / 9 / 5;
+    height: 100%;
 }
 
 .mobile-contact {
-    grid-area: 11 / 1 / 12 / 5;
-    visibility: visible;
+    grid-area: 9 / 1 / 10 / 5;
+    height: 100%;
+    
 }
 
 .menu {
-    grid-area: 8 / 1 / 9 / 5;
+    grid-area: 10 / 1 / 11 / 5;
     height: 100%;
 }
 
 .menu > embed {
     width: 90%;
-    height: 300px;
-    
-    
+    height: 250px;
 }
 
 .rightnow {
-    grid-area: 9 / 1 / 10 / 5;
+    grid-area: 11 / 1 / 12 / 5;
     height: 100%;
 }
 
 .rightnow > embed {
-    
-}
-
-
-@font-face {
-    font-family: 'lobster';
-    src: url(fonts/Lobster_1.3.otf);
-    font-style: normal;
-    font-weight: 100;
+    width: 90%;
+    height: 200px;
 }
 
 h1 {
-    font-family: lobster;
-    font-weight: 100;
     font-size: 10vw;
-    
 }
 
 .mobile-menu {
-    visibility: visible;
+    display: block;
     list-style: none;
     padding: 1px;
     margin: 5px;
@@ -356,7 +329,6 @@ h1 {
 
 .mobile-menu > li {
     background-color: ivory;
-    padding: 0%;
     padding-left: 20px;
 }
 
@@ -376,11 +348,8 @@ h1 {
     grid-area: 7 / 1 / 8 / 5;
 }
 
-.rightnow > a {
-    visibility: visible;
+a {
+    display: block;
 }
-
-
-
 
 }
